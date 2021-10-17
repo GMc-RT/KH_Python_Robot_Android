@@ -1,0 +1,31 @@
+*** Test Plan for Login Page ***
+
+    *** Multi device ***
+        Verify all tests across the top X devices + android versions
+        Verify if the app will allow multiple users to log in at the same time with the same account
+
+    *** Functional ***
+        Verify a new user can log in after verifying their email
+        Verify Forgot Password Functionality
+        Verify error msgs for invalid email format
+        Verify that the password visible toggle works
+        Verify that the login buttons are unclickable when the login information is incomplete
+        Verify that the input boxes have a sensible max size
+
+    *** UX Tests ***
+        Verify that tab moves the cursor in a logical fashion
+        Verify that Enter work to submit user info when entering password
+        Verify that all of the colors used match the official palette
+
+    *** UI Tests ***
+        Verify that all visible elements are fully visible on the supported screen sizes
+
+    *** Performance Testing ***
+        Verify that the time it takes to log in is within expected params
+        Verify that no resource heavy task can be attempted in an abusable manner
+
+    *** Security ***
+        Verify the password lockout is triggered after 10 failed attempts
+        Verify the timeout lasts for 20 minutes
+        Verify the lockout is lifted if the password is reset
+        Verify the page is secured against un-sanitised input attacks*

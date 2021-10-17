@@ -1,0 +1,25 @@
+How to test a new feature (or how I learned to stop worrying and love Automation):
+
+    Gather Intel.
+        Define the scope, goals, resources, timeframe etc
+
+    Plan the approach.
+        Unit testing, api, smoke, UI etc, what should be a priority, where should you start
+
+    Grab your tools.
+        Decide on main language, frameworks, tools and third party software
+
+    Smoke em if you got em.
+        Get a basic set of high value, quick to roll out smoke tests out asap
+
+    Charge!
+        Refine your framework. Plans will change, so keep the tasks small, focusing on objectives that fit multiple areas at once
+
+    Onward!
+        Start to churn out tests, be ready to switch out to a new section if the business needs suddenly change
+
+    We've got them on the run.
+        Run your tests, keep an eye on total time spent on tests daily/monthly, watch for areas you can improve the numbers
+
+    Once more into the breach.
+        Maintain your existing test suites. Be sure that what you are testing is important, and whats important is being tested.

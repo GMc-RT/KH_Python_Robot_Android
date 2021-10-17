@@ -1,0 +1,6 @@
+
+Resources/Variables/password.robot
+Output/*
+*.png
+.idea/*
+venv/*
